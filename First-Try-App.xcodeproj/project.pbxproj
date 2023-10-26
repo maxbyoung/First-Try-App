@@ -14,6 +14,7 @@
 		E7F8A41F2AE8DFEF00488F6A /* First_Try_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F8A41E2AE8DFEF00488F6A /* First_Try_AppTests.swift */; };
 		E7F8A4292AE8DFEF00488F6A /* First_Try_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F8A4282AE8DFEF00488F6A /* First_Try_AppUITests.swift */; };
 		E7F8A42B2AE8DFEF00488F6A /* First_Try_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F8A42A2AE8DFEF00488F6A /* First_Try_AppUITestsLaunchTests.swift */; };
+		E7F8A43A2AEA3CCF00488F6A /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F8A4392AEA3CCF00488F6A /* Feed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E7F8A4242AE8DFEF00488F6A /* First-Try-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "First-Try-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F8A4282AE8DFEF00488F6A /* First_Try_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_Try_AppUITests.swift; sourceTree = "<group>"; };
 		E7F8A42A2AE8DFEF00488F6A /* First_Try_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_Try_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E7F8A4392AEA3CCF00488F6A /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				E7F8A40D2AE8DFEE00488F6A /* First_Try_AppApp.swift */,
 				E7F8A40F2AE8DFEE00488F6A /* ContentView.swift */,
+				E7F8A4392AEA3CCF00488F6A /* Feed.swift */,
 				E7F8A4112AE8DFEF00488F6A /* Assets.xcassets */,
 				E7F8A4132AE8DFEF00488F6A /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7F8A4102AE8DFEE00488F6A /* ContentView.swift in Sources */,
+				E7F8A43A2AEA3CCF00488F6A /* Feed.swift in Sources */,
 				E7F8A40E2AE8DFEE00488F6A /* First_Try_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
