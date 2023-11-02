@@ -11,10 +11,14 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                Image(systemName: "globe")
-                    .imageScale(.large)
-                    .foregroundColor(.accentColor)
-                Text("FIRST TRY")
+                ForEach(0 ... 3, id: \.self) { video in
+                    HStack {
+                        Image(systemName: "globe")
+                            .imageScale(.large)
+                            .foregroundColor(.accentColor)
+                        Text("FIRST TRY")
+                    }
+                }
             }
             .navigationTitle("Feed")
             .navigationBarTitleDisplayMode(.inline)
