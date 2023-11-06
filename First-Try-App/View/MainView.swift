@@ -14,13 +14,13 @@ struct MainView: View {
                 .tabItem {
                     Label("Feed", systemImage: "list.and.film")
                 }
+            CameraView()
+                .tabItem {
+                    Label("Record", systemImage: "camera")
+                }
             LeaderView()
                 .tabItem {
                     Label("Rankings", systemImage: "trophy")
-                }
-            ProfileView()
-                .tabItem {
-                    Label("Profile", systemImage: "person.crop.circle")
                 }
         }
     }

@@ -9,7 +9,11 @@ import SwiftUI
 
 struct LeaderView: View {
     var body: some View {
-        Text("Leaderboard")
+        NavigationStack {
+            ScrollView {}
+            .navigationTitle("LeaderBoard")
+            .navigationBarTitleDisplayMode(.inline)
+        }
     }
 }
 
